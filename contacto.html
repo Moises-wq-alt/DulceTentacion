@@ -9,24 +9,28 @@
     <title>Dulce Tentación | Contacto</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="alternate" type="application/rss+xml" title="Novedades de Dulce Tentación" href="noticias.xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <header>
+    <header id="top">
         <!-- Logo y título -->
         <h1>En esta sección puedes contactarnos con total facilidad</h1>
-        <img src="img/contacto.jpg" alt="Logo de Contacto de Dulce Tentación" width="100" height="100" loading="lazy">
+        <img src="img/contacto.jpg" alt="Mano sosteniendo una tarjeta en blanco" width="100" height="150" loading="lazy">
 
         <nav>
             <!-- Navegación -->
             <p><strong>Nuestras secciones destacadas:</strong></p>
             <div class="navLinks">
-                <a href="recetas.html">Recetas más populares</a>
-                <a href="info.html">Información sobre nosotros</a>
                 <a href="index.html">Inicio</a>
-                <a href="contacto.html">Contáctanos</a>
+                <a href="recetas.html">Recetas más populares</a>
+                <a href="info.html">Información</a>
+                <a href="contacto.html">Contacto</a>
             </div>
         </nav>
     </header>
@@ -37,7 +41,7 @@
             <!-- Presentación del formulario -->
             <p>¡Contáctanos para cualquier pregunta o sugerencia! <br>
                 A continuación, encontrarás un formulario para enviar tus comentarios o dudas; rellénalo
-                y con gusto te atenderemos lo más pronto posible.</p>
+                y te responderemos lo antes posible.</p>
         </section>
 
         <section>
@@ -47,7 +51,7 @@
                 información sea correcta.</p>
             <form action="#" method="post">
                 <!-- Campo de nombre -->
-                <div>
+                <div id="formulario">
                     <label for="nombre">Nombre:</label>
                     <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
                 </div>
@@ -128,20 +132,20 @@
             <!-- Información de contacto -->
             <div>
                 <h2>Información de contacto</h2>
-                <p>Si prefieres, también puedes contactarnos a través de los siguientes medios:</p>
+                
                 <ul>
-                    <li>Teléfono: +34 123 456 789</li>
-                    <li>Correo electrónico: info@dulcetentacion.com</li>
+                    <li>Teléfono: 952 000 000</li>
+                    <li>Correo electrónico: info@dulcetentacion.example</li>
                 </ul>
             </div>
             <div>
-                <p>O también puedes visitarnos en nuestra tienda física:</p>
                 <address>
-                    <p>Calle Terraza, 123<br>
-                        12345 - Málaga<br>
+                    <p>Dirección:<br>
+                        Calle de Jesús de Belén<br>
+                        Málaga<br>
                         España</p>
                 </address>
-                <img src="img/TiendaFisica.jpg" alt="Imagen de la tienda física" width="400" height="300"
+                <img src="img/TiendaFisica.jpg" alt="Interior de una pastelería con vitrinas de productos" width="400" height="600"
                     loading="lazy">
                 <p>Gracias por contactarnos y confiar en nosotros.</p>
             </div>
@@ -161,6 +165,7 @@
                     Pexels
                 </a>, bajo su licencia gratuita.
             </p>
+            <p><a href="noticias.xml">Consultar nuestras novedades RSS</a></p>
 
         </div>
         <div id="regresa-arriba">

@@ -1,0 +1,229 @@
+
+/* Estilos generales para la pagin WEB */
+:root{
+    --h1: #9B4D65;
+    --h2: #bf4342ff;
+    --fondo: #FFF8F2;
+    --fondo-imagen: #edeeec;
+    --CabezeraYpie: #F4D6D6;
+    --algo: #735751ff;
+    --parrafo:#6B4226;
+    --destacar: #C74B70;
+    --bordes: #6B4226 2px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.momo-signature-regular {
+  font-family: "Momo Signature", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body{
+    background-color: var(--fondo);
+    color: var(--parrafo);
+    font-family: Bebas Neue, sans-serif;
+
+}
+
+h1{
+    color: var(--h1);
+    text-align: center;
+    font-family: Momo Signature, cursive;
+}
+
+h2{
+    color: var(--h2);
+    text-align: center;
+    font-family: Momo Signature, cursive;
+    font-family: Momo Signature, cursive;
+}
+
+#top{
+    background-color: var(--CabezeraYpie);
+    color: var(--parrafo);
+    text-align:justify;
+    padding: 50px;
+    width: 100%;
+    height: 300px;
+   border: var(--bordes) groove;
+}
+
+nav{
+    background-color: rgb(229, 194, 200);
+    color: var(--parrafo);
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+main{
+    margin-top: 10px;
+    background-color: var(--fondo);
+    text-align: justify;
+    padding: 10px;
+}
+
+footer{
+    background-color: var(--CabezeraYpie);
+    text-align: left;
+    color: var(--parrafo);
+    padding: auto;
+    width: 100%;
+    height: 225px;
+    margin-top: 15px;
+    border: var(--bordes) solid   ;
+}
+
+#pie-de-pagina{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;       
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+
+#pie-superior{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+
+.caja-pie{
+    background-color: rgb(229, 194, 200);
+    border: var(--bordes) solid;
+    border-radius: 10%;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+#derechos{
+     background-color: rgb(229, 194, 200);
+    border: var(--bordes) solid;
+    border-radius: 10%;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Estilos del index.html*/
+
+
+#presentacion-index{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+#explicacion-index{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    align-items: center;
+}
+#explicacion-index > :first-child{
+    text-align:left ;
+    justify-content: center;
+    padding: 50px;
+}
+
+#postres-index{
+    background-color: var(--fondo-imagen);
+    color: var(--destacar);
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+#miniaturas{
+    background-color: var(--fondo-imagen);
+    color: var(--destacar);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 150px;
+}
+
+.miniatura{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+#recIndex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#ventajas{
+    background-color: var(--fondo-imagen);
+    color: var(--parrafo);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#venListaFoto{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+#venLista{
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

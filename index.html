@@ -5,112 +5,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Moises">
-    <meta name="description" content="Blog de repostería casera">
+    <meta name="description" content="Tienda de repostería casera con recetas y consejos para preparar postres en casa">
     <title>Dulce Tentación | Inicio</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="alternate" type="application/rss+xml" title="Novedades de Dulce Tentación" href="noticias.xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <header>
-        <!-- Logo y título de la web -->
-        <div class="logo">
-            <img src="img/logo.svg" alt="Logo de Dulce Tentación" width="100" height="100" loading="lazy">
-        </div>
+    <header id="top">
+
         <h1>Bienvenido al mundo de la delicia</h1>
-        <p>Descubre recetas deliciosas y sencillas para preparar en casa <br>
-            si buscas información sobre repostería casera o algo más específico puedes <br>
+        <p>Descubre recetas deliciosas y sencillas para preparar en casa
+            si buscas información sobre repostería casera o algo más específico puedes
             consultar nuestras secciones dedicadas a cada tema.
         </p>
 
         <nav>
             <!-- Enlaces a las cuatro páginas -->
-            <p><strong>Nuestras secciones destacadas:</strong></p>
-            <div class="navLinks">
-                <a href="recetas.html">Recetas más populares</a>
-                <a href="info.html">Información sobre nosotros</a>
-                <a href="contacto.html">Contáctanos</a>
-                <a href="index.html">Inicio</a>
+            <div class="logo">
+                <img src="img/logo.svg" alt="Logo ilustrado de Dulce Tentación con galletas y crema" width="100"
+                    height="67">
             </div>
+
+
+            <div class="navLinks">
+                <p><strong>Nuestras secciones destacadas:</strong></p>
+                <a href="index.html">Inicio</a>
+                <a href="recetas.html">Recetas más populares</a>
+                <a href="info.html">Información</a>
+                <a href="contacto.html">Contacto</a>
+
+                <!-- Logo y título de la web -->
+            </div>
+            <div class="logo">
+                <img src="img/logo.svg" alt="Logo ilustrado de Dulce Tentación con galletas y crema" width="100"
+                    height="67">
+            </div>
+
         </nav>
     </header>
 
     <main>
 
-        <section>
+        <section id="presentacion-index">
             <!-- Presentación de la repostería -->
-            <p>Somos una tienda especializada en repostería casera, donde encontrará una amplia variedad de productos
-                deliciosos y saludables.</p>
-            <p>Contamos con ingredientes de la más alta calidad y recetas tradicionales que han sido perfeccionadas a lo
-                largo de los años.</p>
-            <p>Ofrecemos un servicio de entrega a domicilio para que puedas disfrutar de nuestros productos en la
-                comodidad de tu hogar.</p>
-            <!-- Imagen principal -->
-            <div class="main-image">
-                <img src="img/main.jpg" alt="Imagen principal de la web" width="600" height="400" loading="lazy">
+            <div id="explicacion-index">
+                <div>
+                    <p>Somos Dulce Tentación, una tienda especializada en repostería casera, donde encontrarás una
+                        amplia variedad de productos elaborados con dedicación y cariño.
+                        Nuestro objetivo es ofrecer dulces deliciosos que puedan disfrutarse en cualquier ocasión, desde
+                        una pequeña merienda hasta una celebración especial. Contamos
+                        con diferentes opciones de repostería, como tartas, brownies, galletas y bizcochos, pensadas
+                        para satisfacer los gustos de nuestros clientes.</p>
+                    <p>Para elaborar nuestros productos, seleccionamos ingredientes de calidad y seguimos recetas
+                        tradicionales que hemos ido perfeccionando a lo largo de los años. Creemos
+                        que el secreto de una buena repostería está en cuidar cada detalle, desde la elección de los
+                        ingredientes hasta la presentación final. Por eso, buscamos mantener ese
+                        sabor casero que caracteriza a los postres preparados de manera artesanal, sin dejar de
+                        experimentar con nuevas combinaciones y sabores.</p>
+                    <p>Además, queremos que disfrutar de nuestros dulces sea lo más sencillo y cómodo posible. Por ello,
+                        ofrecemos un servicio de entrega a domicilio, para que puedas recibir
+                        nuestros productos directamente en tu hogar. Ya sea para darte un capricho, compartir un momento
+                        especial con familiares y amigos o sorprender a alguien con un detalle
+                        dulce, en Dulce Tentación encontrarás diferentes opciones para cada ocasión.</p>
+                </div>
+                <!-- Imagen principal -->
+                <div class="main-image">
+                    <img src="img/main.jpg" alt="Vitrina de una pastelería con distintos postres" width="500"
+                        height="500" loading="lazy">
+                </div>
             </div>
-            <p>Te enseñamos cómo preparar deliciosos postres en casa como los siguientes:</p>
-            <div class="miniatura">
-                <p>Brownie de chocolate</p>
-            </div>
-            <div class="miniatura">
-                <p>Tarta de queso</p>
-            </div>
-            <div class="miniatura">
-                <p>Galletas caseras</p>
-            </div>
+
+            <div id="postres-index">
+                <div>
+                    <h2>Recetas destacadas</h2>
+                    <p><strong> enseñamos cómo preparar deliciosos postres en casa como los siguientes:</strong></p>
+                </div>
+                <div id="miniaturas">
+                    <div class="miniatura">
+                        <a href="recetas.html#brownie">Brownie de chocolate</a>
+                        <img src="img/recetaBrownies.jpg" alt="Brownie de chocolate partido en cuadrados" width="200"
+                            height="300" loading="lazy">
+                    </div>
+                    <div class="miniatura">
+                        <a href="recetas.html#tartaQueso">Tarta de queso</a>
+                        <img src="img/TartaDeQueso.jpg" alt="Tarta de queso con una porción cortada" width="200"
+                            height="300" loading="lazy">
+                    </div>
+                    <div class="miniatura">
+                        <a href="recetas.html#galletas">Galletas caseras</a>
+                        <img src="img/recetaGalletas.jpg" alt="Galletas de mantequilla recién horneadas" width="200"
+                            height="300" loading="lazy">
+                    </div>
+
+                </div>
         </section>
+        <div>
+            <p><strong>¿Tienes curiosidad por conocer alguna de nuestras recetas? Descubre cómo preparar deliciosos
+                    postres en
+                    casa como los siguientes:</strong></p>
+        </div>
+        <div id="recIndex">
+            <article class="recIndex">
+                <!-- Presentación de una receta -->
+                <h3>Tarta de manzana</h3>
+                <img src="img/TartaManzana.jpg" alt="Tarta de manzana con rodajas de fruta" width="400" height="533">
 
-        <section>
-            <!-- Recetas destacadas -->
-            <div class="featured-recipes">
-                <h2>Recetas destacadas</h2>
-                <p>Explora nuestras recetas más populares y deliciosas:</p>
-                <ul>
-                    <li><a href="recetas.html#brownie">Brownie de chocolate</a></li>
-                    <li><a href="recetas.html#tartaQueso">Tarta de queso</a></li>
-                    <li><a href="recetas.html#galletas">Galletas caseras</a></li>
-                </ul>
-            </div>
-        </section>
-        <article>
-            <!-- Presentación de una receta -->
-            <p>¿Tienes curiosidad por conocer alguna de nuestras recetas? Descubre cómo preparar deliciosos postres en
-                casa como las siguientes:</p>
-            <div>
-                <img src="img/TartaManzana.jpg" alt="Imagen de la receta" width="400" height="300">
-            </div>
-        </article>
+            </article>
 
-        <article>
-            <!-- Presentación de otra receta -->
+            <article class="recIndex">
+                <!-- Presentación de otra receta -->
+                <h3>Tarta de Limón</h3>
+                <img src="img/tartaDeLimon.jpg" alt="Tarta de Limón decorada" width="400" height="533">
 
-            <div>
-                <img src="img/TartaDeQueso.jpg" alt="Imagen de la receta" width="400" height="300">
-            </div>
-        </article>
+            </article>
+        </div>
 
         <section id="ventajas">
             <!-- Ventajas de la repostería casera -->
             <div>
                 <h2>Ventajas de la repostería casera</h2>
-                <p>¿Por qué elegir la repostería casera? <br>
-                    Pues nosotros te ofrecemos...</p>
-                <!-- Lista ul -->
-                <ul>
-                    <li>Control de ingredientes y calidad.</li>
-                    <li>Personalización de recetas según gustos y necesidades.</li>
-                    <li>Fomento de la creatividad y habilidades culinarias.</li>
-                    <li>Oportunidad de compartir momentos especiales con familiares y amigos.</li>
-                </ul>
-                <p>y muchas más ventajas que descubrirás al preparar postres en casa.</p>
+                <div id="venListaFoto">
+                    <div id="venLista">
+                        <p>¿Por qué elegir la repostería casera? <br>
+                            Pues nosotros te ofrecemos...</p>
+                        <!-- Lista ul -->
+                        <ul>
+                            <li>Control de ingredientes y calidad.</li>
+                            <li>Personalización de recetas según gustos y necesidades.</li>
+                            <li>Fomento de la creatividad y habilidades culinarias.</li>
+                            <li>Oportunidad de compartir momentos especiales con familiares y amigos.</li>
+                        </ul>
+                        <p>y muchas más ventajas que descubrirás al preparar postres en casa.</p>
+                    </div>
+
+                    <div id="venFoto">
+                        <img src="img/casero.jpg" alt="Tarta decorada con cerezas y crema" width="400" height="267">
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="img/casero.jpg" alt="Imagen de repostería casera" width="400" height="300">
-            </div>
+
 
         </section>
 
@@ -119,26 +159,33 @@
     <footer>
         <!-- Copyright y enlace de contacto -->
         <div id="pie-de-pagina">
-            <div>
+            <div id="pie-superior">
+                <div class="caja-pie">
+                    <a href="contacto.html">Contáctanos</a>
+                    <p>Estaremos encantados de atenderte en caso de que tengas alguna duda o sugerencia para nosotros.
+                    </p>
+                </div>
+                <div class="caja-pie">
+                    <p>
+                        Las imágenes utilizadas en esta web proceden de
+                        <a href="https://www.pexels.com/es-es/" target="_blank" rel="noopener">
+                            Pexels
+                        </a>, bajo su licencia gratuita.
+                    </p>
+                </div>
+                <div class="caja-pie">
+                    <p>
+                        <a href="noticias.xml">Consultar nuestras novedades RSS</a>
+                    </p>
+                </div>
+
+                <div class="caja-pie">
+                    <a href="#top">Regresar arriba</a>
+
+                </div>
+            </div>
+            <div id="derechos">
                 <p>&copy; 2026 Dulce Tentación. Todos los derechos reservados.</p>
-                <a href="contacto.html">Contáctanos</a>
-                <p>Estaremos encantados de atenderte en caso de que tengas alguna duda o sugerencia para nosotros.</p>
-
-                <p>
-                    Las imágenes utilizadas en esta web proceden de
-                    <a href="https://www.pexels.com/es-es/" target="_blank" rel="noopener">
-                        Pexels
-                    </a>, bajo su licencia gratuita.
-                </p>
-
-                <p>
-                    <a href="noticias.xml">Consultar nuestras novedades RSS</a>
-                </p>
-
-            </div>  
-            <div id="regresa-arriba">
-                <a href="#top">Regresar arriba</a>
-
             </div>
         </div>
     </footer>
