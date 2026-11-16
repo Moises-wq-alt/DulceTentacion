@@ -2,57 +2,42 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Moises">
-    <meta name="description" content="Tienda de repostería casera con recetas y consejos para preparar postres en casa">
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Moises" name="author" />
+    <meta content="Tienda de repostería casera con recetas y consejos para preparar postres en casa"
+        name="description" />
     <title>Dulce Tentación | Inicio</title>
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="alternate" type="application/rss+xml" title="Novedades de Dulce Tentación" href="noticias.xml">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap" rel="stylesheet">
-
+    <link href="css/estilos.css" rel="stylesheet" />
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="noticias.xml" rel="alternate" title="Novedades de Dulce Tentación" type="application/rss+xml" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Momo+Signature&amp;display=swap"
+        rel="stylesheet" />
 </head>
 
 <body>
-
     <header id="top">
-
         <h1>Bienvenido al mundo de la delicia</h1>
-        <p>Descubre recetas deliciosas y sencillas para preparar en casa
-            si buscas información sobre repostería casera o algo más específico puedes
-            consultar nuestras secciones dedicadas a cada tema.
-        </p>
+        <p class="descripcion-cabecera">Descubre recetas deliciosas y sencillas para preparar en casa. Visita nuestras
+            secciones para conocer nuestros postres, aprender trucos de repostería o contactar con nosotros.</p>
 
-        <nav>
-            <!-- Enlaces a las cuatro páginas -->
-            <div class="logo">
-                <img src="img/logo.svg" alt="Logo ilustrado de Dulce Tentación con galletas y crema" width="100"
-                    height="67">
-            </div>
-
-
-            <div class="navLinks">
-                <p><strong>Nuestras secciones destacadas:</strong></p>
-                <a href="index.html">Inicio</a>
+    </header>
+    <nav>
+        <div class="logo"><img alt="Logo de Dulce Tentación" height="67" src="img/logo.svg" width="100" /></div>
+        <div class="navLinks">
+            <p><strong>Nuestras secciones destacadas:</strong></p>
+            <div class="enlaces-navegacion">
+                <a class="pagina-actual" href="index.html">Inicio</a>
                 <a href="recetas.html">Recetas más populares</a>
                 <a href="info.html">Información</a>
                 <a href="contacto.html">Contacto</a>
-
-                <!-- Logo y título de la web -->
             </div>
-            <div class="logo">
-                <img src="img/logo.svg" alt="Logo ilustrado de Dulce Tentación con galletas y crema" width="100"
-                    height="67">
-            </div>
-
-        </nav>
-    </header>
-
-    <main>
-
+        </div>
+        <div class="logo"><img alt="" height="67" src="img/logo.svg" width="100" /></div>
+    </nav>
+    <main id="contenido-index">
         <section id="presentacion-index">
             <!-- Presentación de la repostería -->
             <div id="explicacion-index">
@@ -75,13 +60,11 @@
                         especial con familiares y amigos o sorprender a alguien con un detalle
                         dulce, en Dulce Tentación encontrarás diferentes opciones para cada ocasión.</p>
                 </div>
-                <!-- Imagen principal -->
                 <div class="main-image">
-                    <img src="img/main.jpg" alt="Vitrina de una pastelería con distintos postres" width="500"
-                        height="500" loading="lazy">
+                    <img alt="Vitrina de una pastelería con distintos postres" height="500" loading="lazy"
+                        src="img/main.jpg" width="500" />
                 </div>
             </div>
-
             <div id="postres-index">
                 <div>
                     <h2>Recetas destacadas</h2>
@@ -90,21 +73,21 @@
                 <div id="miniaturas">
                     <div class="miniatura">
                         <a href="recetas.html#brownie">Brownie de chocolate</a>
-                        <img src="img/recetaBrownies.jpg" alt="Brownie de chocolate partido en cuadrados" width="200"
-                            height="300" loading="lazy">
+                        <img alt="Brownie de chocolate partido en cuadrados" height="300" loading="lazy"
+                            src="img/recetaBrownies.jpg" width="200" />
                     </div>
                     <div class="miniatura">
                         <a href="recetas.html#tartaQueso">Tarta de queso</a>
-                        <img src="img/TartaDeQueso.jpg" alt="Tarta de queso con una porción cortada" width="200"
-                            height="300" loading="lazy">
+                        <img alt="Tarta de queso con una porción cortada" height="300" loading="lazy"
+                            src="img/TartaDeQueso.jpg" width="200" />
                     </div>
                     <div class="miniatura">
                         <a href="recetas.html#galletas">Galletas caseras</a>
-                        <img src="img/recetaGalletas.jpg" alt="Galletas de mantequilla recién horneadas" width="200"
-                            height="300" loading="lazy">
+                        <img alt="Galletas de mantequilla recién horneadas" height="300" loading="lazy"
+                            src="img/recetaGalletas.jpg" width="200" />
                     </div>
-
                 </div>
+            </div>
         </section>
         <div>
             <p><strong>¿Tienes curiosidad por conocer alguna de nuestras recetas? Descubre cómo preparar deliciosos
@@ -112,30 +95,26 @@
                     casa como los siguientes:</strong></p>
         </div>
         <div id="recIndex">
-            <article class="recIndex">
+            <article class="recIndex tarjeta"><span class="etiqueta-novedad">Especial</span>
                 <!-- Presentación de una receta -->
                 <h3>Tarta de manzana</h3>
-                <img src="img/TartaManzana.jpg" alt="Tarta de manzana con rodajas de fruta" width="400" height="533">
-
+                <img alt="Tarta de manzana con rodajas de fruta" height="533" loading="lazy" src="img/TartaManzana.jpg"
+                    width="400" />
             </article>
-
-            <article class="recIndex">
+            <article class="recIndex tarjeta">
                 <!-- Presentación de otra receta -->
                 <h3>Tarta de Limón</h3>
-                <img src="img/tartaDeLimon.jpg" alt="Tarta de Limón decorada" width="400" height="533">
-
+                <img alt="Tarta de Limón decorada" height="533" loading="lazy" src="img/tartaDeLimon.jpg" width="400" />
             </article>
         </div>
-
         <section id="ventajas">
             <!-- Ventajas de la repostería casera -->
             <div>
                 <h2>Ventajas de la repostería casera</h2>
                 <div id="venListaFoto">
                     <div id="venLista">
-                        <p>¿Por qué elegir la repostería casera? <br>
+                        <p>¿Por qué elegir la repostería casera? <br />
                             Pues nosotros te ofrecemos...</p>
-                        <!-- Lista ul -->
                         <ul>
                             <li>Control de ingredientes y calidad.</li>
                             <li>Personalización de recetas según gustos y necesidades.</li>
@@ -144,52 +123,34 @@
                         </ul>
                         <p>y muchas más ventajas que descubrirás al preparar postres en casa.</p>
                     </div>
-
                     <div id="venFoto">
-                        <img src="img/casero.jpg" alt="Tarta decorada con cerezas y crema" width="400" height="267">
+                        <img alt="Tarta decorada con cerezas y crema" height="267" loading="lazy" src="img/casero.jpg"
+                            width="400" />
                     </div>
                 </div>
             </div>
-
-
         </section>
-
     </main>
-
     <footer>
-        <!-- Copyright y enlace de contacto -->
         <div id="pie-de-pagina">
             <div id="pie-superior">
-                <div class="caja-pie">
-                    <a href="contacto.html">Contáctanos</a>
-                    <p>Estaremos encantados de atenderte en caso de que tengas alguna duda o sugerencia para nosotros.
-                    </p>
+                <div class="caja-pie"><a href="contacto.html">Contáctanos</a>
+                    <p>Estaremos encantados de atenderte si tienes alguna duda o sugerencia.</p>
                 </div>
                 <div class="caja-pie">
-                    <p>
-                        Las imágenes utilizadas en esta web proceden de
-                        <a href="https://www.pexels.com/es-es/" target="_blank" rel="noopener">
-                            Pexels
-                        </a>, bajo su licencia gratuita.
-                    </p>
+                    <p>Imágenes de <a href="https://www.pexels.com/es-es/" rel="noopener noreferrer"
+                            target="_blank">Pexels</a></p>
+                    <p>Audio: <a href="https://pixabay.com/sound-effects/" rel="noopener noreferrer"
+                            target="_blank">Pixabay</a>.</p>
                 </div>
-                <div class="caja-pie">
-                    <p>
-                        <a href="noticias.xml">Consultar nuestras novedades RSS</a>
-                    </p>
-                </div>
-
-                <div class="caja-pie">
-                    <a href="#top">Regresar arriba</a>
-
-                </div>
+                <div class="caja-pie"><a href="noticias.xml">Consultar nuestras novedades RSS</a></div>
+                <div class="caja-pie"><a href="#top">Regresar arriba</a></div>
             </div>
             <div id="derechos">
-                <p>&copy; 2026 Dulce Tentación. Todos los derechos reservados.</p>
+                <p>© 2026 Dulce Tentación. Todos los derechos reservados.</p>
             </div>
         </div>
     </footer>
-
 </body>
 
 </html>

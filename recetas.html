@@ -2,49 +2,46 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Moises">
-    <meta name="description" content="Recetas de repostería casera">
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Moises" name="author" />
+    <meta content="Recetas de repostería casera" name="description" />
     <title>Dulce Tentación | Recetas</title>
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="alternate" type="application/rss+xml" title="Novedades de Dulce Tentación" href="noticias.xml">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap" rel="stylesheet">
-
+    <link href="css/estilos.css" rel="stylesheet" />
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="noticias.xml" rel="alternate" title="Novedades de Dulce Tentación" type="application/rss+xml" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Momo+Signature&amp;display=swap"
+        rel="stylesheet" />
 </head>
 
 <body>
-
     <header id="top">
-        <!-- Logo y título -->
+        <h1>Bienvenido al mundo de la delicia</h1>
+        <p class="descripcion-cabecera">Explora nuestro catálogo de postres, consulta los ingredientes y aprende a
+            preparar brownies, tartas y galletas paso a paso.</p>
 
-        <img src="img/Estrella.webp" alt="Logo de Recetas de Dulce Tentación, una estrella" width="100" height="75"
-            loading="lazy">
-        <h1>Recetas estrella de nuestra repostería</h1>
-        <img src="img/Estrella.webp" alt="" width="100" height="75"
-            loading="lazy">
-        <nav>
-            <!-- Navegación -->
+    </header>
+    <nav>
+        <div class="logo"><img alt="Logo de Dulce Tentación" height="67" src="img/logo.svg" width="100" /></div>
+        <div class="navLinks">
             <p><strong>Nuestras secciones destacadas:</strong></p>
-            <div class="navLinks">
+            <div class="enlaces-navegacion">
                 <a href="index.html">Inicio</a>
-                <a href="recetas.html">Recetas más populares</a>
+                <a class="pagina-actual" href="recetas.html">Recetas más populares</a>
                 <a href="info.html">Información</a>
                 <a href="contacto.html">Contacto</a>
             </div>
-        </nav>
-    </header>
-
-    <main>
-
-        <section>
+        </div>
+        <div class="logo"><img alt="" height="67" src="img/logo.svg" width="100" /></div>
+    </nav>
+    <main id="contenido-recetas">
+        <section class="bloque" id="catalogo-recetas">
             <!-- Introducción al catálogo -->
             <h2>Descubre nuestras recetas más populares</h2>
             <p>Explora nuestras recetas más queridas por los amantes de la repostería. Cada una está cuidadosamente
-                elaborada para garantizar el máximo sabor y presentación.<br>
+                elaborada para garantizar el máximo sabor y presentación.<br />
                 Este catálogo está ordenado de menor a mayor número de pedidos mensuales:</p>
             <ol>
                 <li>Muffins de arándanos - 12 pedidos mensuales</li>
@@ -59,24 +56,17 @@
                 <li>Brownies de chocolate - 112 pedidos mensuales</li>
             </ol>
         </section>
-        <section>
+        <section class="titulo-recetas">
             <h2>Tres recetas completas, paso a paso</h2>
         </section>
-
-        <section>
+        <section class="seccion-receta">
             <!-- Receta 1: Brownie de chocolate -->
-
-            <article id="brownie">
+            <article class="tarjeta ficha-receta receta-destacada" id="brownie"><span
+                    class="etiqueta-novedad">Popular</span>
                 <h2>Brownie de chocolate</h2>
-
-                <!-- Imagen del brownie -->
-                <img src="img/recetaBrownies.jpg" alt="Brownie de chocolate" width="300" height="450" loading="lazy">
-
-
-                <!-- Descripción -->
+                <img alt="Brownie de chocolate" height="450" loading="lazy" src="img/recetaBrownies.jpg" width="300" />
                 <p>Un brownie de chocolate cremoso y delicioso, perfecto para los amantes del chocolate.</p>
                 <h3>Ingredientes</h3>
-                <!-- Lista ul de ingredientes -->
                 <ul>
                     <li>200 g de chocolate negro</li>
                     <li>150 g de mantequilla</li>
@@ -87,9 +77,7 @@
                     <li>Una pizca de sal</li>
                     <li>50 g de nueces troceadas (opcional)</li>
                 </ul>
-
                 <h3>Preparación</h3>
-                <!-- Lista ol de pasos -->
                 <ol>
                     <li>Precalentar el horno a 180 °C.</li>
                     <li>Derretir el chocolate junto con la mantequilla.</li>
@@ -101,19 +89,15 @@
                     <li>Hornear durante 20-25 minutos.</li>
                     <li>Dejar enfriar antes de cortar en cuadrados.</li>
                 </ol>
-
                 <p>¡Disfruta de tu delicioso brownie de chocolate!</p>
             </article>
-
         </section>
-
-        <section>
+        <section class="seccion-receta">
             <!-- Receta 2: Tarta de queso -->
-
-            <article id="tartaQueso">
+            <article class="tarjeta ficha-receta" id="tartaQueso">
                 <h2>Tarta de queso</h2>
                 <p>Una tarta de queso cremosa y sabrosa, ideal para los amantes del postre.</p>
-                <img src="img/TartaDeQueso.jpg" alt="Tarta de queso" width="300" height="450" loading="lazy">
+                <img alt="Tarta de queso" height="450" loading="lazy" src="img/TartaDeQueso.jpg" width="300" />
                 <h3>Ingredientes</h3>
                 <ul>
                     <li>500 g de queso crema</li>
@@ -124,7 +108,6 @@
                     <li>200 g de galletas tipo María</li>
                     <li>80 g de mantequilla</li>
                 </ul>
-
                 <h3>Preparación</h3>
                 <ol>
                     <li>Triturar las galletas hasta obtener migas finas.</li>
@@ -138,20 +121,13 @@
                     <li>Dejar enfriar y refrigerar varias horas antes de servir.</li>
                 </ol>
             </article>
-
-
-
-
         </section>
-
-        <section>
-
-
-            <article id="galletas">
+        <section class="seccion-receta">
+            <article class="tarjeta ficha-receta" id="galletas">
                 <h2>Galletas de mantequilla</h2>
                 <p>Deliciosas galletas de mantequilla, perfectas para acompañar tu café favorito.</p>
-                <img src="img/recetaGalletas.jpg" alt="Galletas de mantequilla" width="300" height="200" loading="lazy">
-
+                <img alt="Galletas de mantequilla" height="200" loading="lazy" src="img/recetaGalletas.jpg"
+                    width="300" />
                 <h3>Ingredientes</h3>
                 <ul>
                     <li>250 g de harina de trigo</li>
@@ -161,7 +137,6 @@
                     <li>1 cucharadita de esencia de vainilla</li>
                     <li>Una pizca de sal</li>
                 </ul>
-
                 <h3>Preparación</h3>
                 <ol>
                     <li>Dejar la mantequilla a temperatura ambiente hasta que esté blanda.</li>
@@ -175,35 +150,29 @@
                     <li>Hornear a 180 °C durante 10-15 minutos.</li>
                     <li>Dejar enfriar antes de servir.</li>
                 </ol>
-
             </article>
-
         </section>
-
     </main>
-
     <footer>
-        <!-- Información del sitio -->
         <div id="pie-de-pagina">
-            <p>&copy; 2026 Dulce Tentación. Todos los derechos reservados.</p>
-            <a href="contacto.html">Contáctanos</a>
-            <p>Estaremos encantados de atenderte en caso de que tengas alguna duda o sugerencia para nosotros.</p>
-
-            <p>
-                Las imágenes utilizadas en esta web proceden de
-                <a href="https://www.pexels.com/es-es/" target="_blank" rel="noopener">
-                    Pexels
-                </a>, bajo su licencia gratuita.
-            </p>
-            <p><a href="noticias.xml">Consultar nuestras novedades RSS</a></p>
-
-        </div>
-        <div id="regresa-arriba">
-            <a href="#top">Regresar arriba</a>
-
+            <div id="pie-superior">
+                <div class="caja-pie"><a href="contacto.html">Contáctanos</a>
+                    <p>Estaremos encantados de atenderte si tienes alguna duda o sugerencia.</p>
+                </div>
+                <div class="caja-pie">
+                    <p>Imágenes de <a href="https://www.pexels.com/es-es/" rel="noopener noreferrer"
+                            target="_blank">Pexels</a></p>
+                    <p>Audio: <a href="https://pixabay.com/sound-effects/" rel="noopener noreferrer"
+                            target="_blank">Pixabay</a>.</p>
+                </div>
+                <div class="caja-pie"><a href="noticias.xml">Consultar nuestras novedades RSS</a></div>
+                <div class="caja-pie"><a href="#top">Regresar arriba</a></div>
+            </div>
+            <div id="derechos">
+                <p>© 2026 Dulce Tentación. Todos los derechos reservados.</p>
+            </div>
         </div>
     </footer>
-
 </body>
 
 </html>
