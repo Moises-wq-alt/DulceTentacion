@@ -2,24 +2,24 @@
 <rss version="2.0">
     <channel>
         <title>Dulce Tentación - Novedades</title>
-        <link>https://TU-USUARIO.github.io/TU-REPOSITORIO/</link>
+       <link>https://moises-wq-alt.github.io/DulceTentacion/</link>
         <description>Nuevas recetas y recursos publicados en Dulce Tentación.</description>
         <language>es-es</language>
         <item>
             <title>Receta de brownies de chocolate</title>
-            <link>https://TU-USUARIO.github.io/TU-REPOSITORIO/recetas.html#brownie</link>
+           <link>https://moises-wq-alt.github.io/DulceTentacion/recetas.html#brownie</link>
             <description>Ingredientes y preparación del brownie de chocolate.</description>
             <pubDate>Sat, 14 Nov 2026 10:00:00 +0100</pubDate>
         </item>
         <item>
             <title>Receta de tarta de queso</title>
-            <link>https://TU-USUARIO.github.io/TU-REPOSITORIO/recetas.html#tartaQueso</link>
+           <link>https://moises-wq-alt.github.io/DulceTentacion/recetas.html#tartaQueso</link>
             <description>Ingredientes y pasos para preparar una tarta de queso.</description>
             <pubDate>Sat, 14 Nov 2026 18:00:00 +0100</pubDate>
         </item>
         <item>
             <title>Tabla de equivalencias de repostería</title>
-            <link>https://TU-USUARIO.github.io/TU-REPOSITORIO/info.html#equivalencias</link>
+           <link>https://moises-wq-alt.github.io/DulceTentacion/info.html#equivalencias</link>
             <description>Equivalencias aproximadas de pesos y medidas para recetas.</description>
             <pubDate>Sat, 14 Nov 2026 12:00:00 +0100</pubDate>
         </item>
