@@ -189,13 +189,14 @@ footer {
   gap: 15px;
 }
 
-.caja-pie,
-#derechos {
-  background-color: #e5c2c8;
-  border: 2px dotted var(--marron);
-  border-radius: 10px;
+.caja-pie{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
-  padding: 12px;
+  border: 2px solid var(--marron);
+  border-radius: 10px;
+  padding: 5  px;
 }
 
 .enlaces-proyecto {
