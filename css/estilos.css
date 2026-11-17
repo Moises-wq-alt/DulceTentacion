@@ -403,6 +403,9 @@ footer {
   background-color: #edeeec;
   text-align: center;
   width: 200px;
+  padding: 10px;
+  border: 2px solid;
+  border-radius: 10px;
 }
 
 .tarjeta-miniatura img {
