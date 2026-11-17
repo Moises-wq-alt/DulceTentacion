@@ -198,6 +198,41 @@ footer {
   padding: 12px;
 }
 
+.enlaces-proyecto {
+  text-align: center;
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #fff8f2;
+  border: 2px solid var(--marron);
+  border-radius: 10px;
+}
+
+.enlaces-proyecto p {
+  margin-top: 0;
+}
+
+.enlaces-proyecto a {
+  display: inline-block;
+  background-color: var(--rosa);
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.enlaces-proyecto a:hover {
+  background-color: var(--rojo);
+}
+
+#derechos {
+  background-color: #e5c2c8;
+  border: 2px dotted var(--marron);
+  border-radius: 10px;
+  text-align: center;
+  padding: 12px;
+}
+
 #derechos {
   margin-top: 15px;
 }
